@@ -324,6 +324,34 @@ hr {
   font-size: 20px;
   font-weight: 700;
 }
+#serv{
+  display: grid;
+  grid-template-columns:repeat(3,30%);
+  margin-right: 0px;
+  background-color:rgba(229, 242, 229, 0.084);
+  margin-right: 100px;
+  margin-left: 300px;
+  padding-top: 3%;
+  padding-bottom:0% ;
+  justify-content: center;
+  height:1800%;
+  width: 60%;
+  border-radius: 20px;
+  
+}
+.se img{
+  height: 200px;
+  width: 200px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  border-radius: 10px;
+  border: 10px inset rgba(0, 128, 0, 0.419);
+  transition: 0.4s;
+}
+
+.se img:hover{
+  border: 10px inset rgba(1, 175, 1, 0.904);
+}
 @media screen and (max-width:576px) {
 
   .header {
@@ -407,8 +435,8 @@ hr {
     justify-content: center; 
   }
   .wo img{
-    height: 260px;
-    width: 430px;
+    height: 200px;
+    width: 350px;
     margin-left:30px ;
     margin-bottom: 30px;
   }
@@ -419,7 +447,7 @@ hr {
   
   .footer-content {
     width: fit-content;
-    direction: ltr;
+    
     
   }
 }
@@ -438,24 +466,33 @@ hr {
   
   .head {
     flex-direction: row;
-    text-align: center;
-    padding: 20px;
+    text-align: left;
+    height: 200px;
   }
   
   .av {
-    margin: 20px 0;
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 600px;
     align-self: center;
+    height: 150px;
+    height: 150px;
+
   }
   
   .ion{
-    position: relative;
-    margin-top: 20px;
+    position: absolute;
+    margin-top: 10px;
+    height: 130px;
+    width: 130px;
     
   }
   .io {
-    position: relative;
+    position: absolute;
     margin-left: 10px;
-    margin-top: 20px;
+    margin-top: 70px;
+    height: 130px;
+    width: 130px;
   }
   
   #par {
@@ -465,6 +502,7 @@ hr {
   .cert {
     flex-direction: column;
     align-items: center;
+    margin-top: 170%;
   }
   
   .cert img {
@@ -473,8 +511,8 @@ hr {
   .works{
     display: grid;
     grid-template-columns:repeat(2,1fr);
-    margin-left: 120px;
-    margin-right: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
     justify-content: center; 
   }
   .wo img{
@@ -482,8 +520,8 @@ hr {
     height: 200px;
     width: 330px;
     margin-top: 40px;
+    margin-right: 10px;
     border-radius: 10px;
-    background-color: black;
     transition: 0.4s;
   
   }
@@ -514,55 +552,84 @@ hr {
   
   .head {
     flex-direction: row;
-    text-align: center;
-    padding: 20px;
+    text-align: left;
+    height: 200px;
+    margin-left: -30px;
   }
   
   .av {
-    margin: 20px 0;
+    position: absolute;
+    margin-top: 0px;
+    margin-right: 600px;
     align-self: center;
+    height: 250px;
+    height: 250px;
+
   }
   
-  .ion,
+  .ion{
+    position: absolute;
+    height: 230px;
+    width: 230px;
+    margin-right: 20px;
+    
+  }
   .io {
-    position: relative;
-    margin: 20px 0;
-    margin-top: 20px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+    height: 230px;
+    width: 230px;
   }
   
   #par {
-    margin-top: 20px;
+    margin-top: 0px;
   }
   
   .cert {
-    margin-top: 50%;
-    flex-direction: column;
+    
     align-items: center;
-    width: fit-content;
+    position: absolute;
+    margin-top: -10%;
   }
   
   .cert img {
-    margin: 10px 0;
+    position: absolute;
+    
   }
   .works{
     display: grid;
-    grid-template-columns:repeat(1,1fr);
-    margin-left: 120px;
-    margin-right: 40px;
+    grid-template-columns:repeat(3,1fr);
+    
+    margin-left: 50px;
+    margin-right: 50px;
+    
     justify-content: center; 
+  }
+  .wo img{
+    border: 5px solid rgba(0, 128, 0, 0.419);
+    height: 200px;
+    width: 330px;
+    margin-top: 40px;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: 0.4s;
+  
   }
   footer{
     width: fit-content;
-    height: fit-content;
+
   }
   
   .footer-content {
-    width: 100%;
+    width: fit-content;
+    
   }
-}
-@media screen and (max-width:1200px) {
   
-}@media(max-width: 767px){
+}
+
+  
+@media(max-width: 767px){
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
